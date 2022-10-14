@@ -1,0 +1,22 @@
+1.Başla
+2.Mutfağa gir.
+3.Yemek için gerekli malzemeleri çıkart.
+4.Yapılacak yemeğin malzemelerini kontrol et.
+5.Malzemeleri hazırla.
+6.Tavayı ocağa koy.
+7.Ocağın altını yak.
+8.Makarna sosu için ocağı kızdır ve yağ ekle.
+9.Mantarları tavaya ekle ve yavaşça sotele.
+10.Mantarlardan sonra doğranmış tavukları ekle.
+11.Tatlandırmak için gerekli olan baharatları ekle.
+12.Kremayı ve diğer malzemeleri ekle ve karıştır.
+13.Karıştırdıktan sonra kısık ateşte pişmeye bırak.
+14.Farklı bir tencerede suyu kaynat ve tuz at.
+15.Tencereye makarnayı ekle.
+16.Pişen makarnayı süz.
+17.Makarnayı diğer tencereye al.
+18.Tencerede bütün malzemeleri karıştır.
+19.Servis için yemeği tabağa al.
+20.Bitir.
+
+

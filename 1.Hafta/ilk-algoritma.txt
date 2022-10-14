@@ -1,0 +1,45 @@
+1.Başla
+2.Alarm çaldı, uyan.
+3.Elini yüzünü yıka.
+4.Telefon bildirimlerini kontrol et.
+5.          Eğer açsan; 6.satırdan devam et.
+             aç değilsen;10.satırdan devam et.
+6.Yemekhaneye in.
+7.Yemek için sıraya gir ve yemeğini al.
+8.Yemeğini ye.
+9.Odana çık.
+10.Dişlerini fırçala.
+11.Duş al.
+12.Odanı topla.
+13.          Kirli kıyafetlerin varsa;14.satırdan devam et.
+                                             yoksa;17.satırdan devam et.
+14.Çamaşırhaneye git.
+15.Kirlileri görevliye teslim et.
+16.Odana dön.
+17.Ders programını kontrol et.
+18.          Okul varsa;19.satırdan devam et.
+                         yoksa;29.satırdan devam et.
+19.İşlenecek konulara göz gezdir.
+20.Boş vaktini değerlendir.
+21.Okul için hazırlan.
+22.          Odadan çık, yorgun hissediyorsan;23.satırdan devam et ve 24.satırı atla.
+                                      yorgun hissetmiyorsan;24.satırdan devam et.
+23.Asansöre bin.
+24.Merdiveni kullan.
+25.Okula git.
+26.Programdaki derslere gir.
+27.Okuldan çık.
+28.Yurda dön.
+29.Akşam yemeği için yemekhaneye in.
+30.Yemeği ye.
+31.Odana çık.
+32.          Ders çalışman gerekiyorsa;33.satırdan devam et.
+                                          gerekmiyorsa;35.satırdan devam et.
+33.          Yorgun hissetmiyorsan;34.satırdan devam et.
+                              hissediyorsan; 35.satırdan devam et.
+34.Ders tekrarlarını yap.
+35.Dişini fırçala.
+36.Alarm kur.
+37.Yat.
+38.Uyu.
+39.Bitir.
