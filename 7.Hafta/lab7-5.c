@@ -2,7 +2,8 @@
 
 int main(){
 	
-	int sayi, yuz, elli, yirmi, on = 0;
+	int sayi=0, yuz=0, elli=0, yirmi=0, on = 0;
+	
 	
 	printf("10'un kati bir sayi giriniz: ", sayi);
 	scanf("%d", &sayi);
