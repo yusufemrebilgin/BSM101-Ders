@@ -1,3 +1,5 @@
+//	print the multiplication table for 6's.
+
 #include<stdio.h>
 
 int main(){

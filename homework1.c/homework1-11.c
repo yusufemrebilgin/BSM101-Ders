@@ -1,3 +1,5 @@
+//	read 10 numbers from the user and prints out their sum, and their product.
+
 #include<stdio.h>
 
 int main(){

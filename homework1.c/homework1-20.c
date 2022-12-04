@@ -1,3 +1,5 @@
+//count number of digits in a number.
+
 #include<stdio.h>
 
 int main(){

@@ -1,3 +1,5 @@
+//	print the SUM of numbers from LOW to HIGH. 
+
 #include<stdio.h>
 
 int main(){

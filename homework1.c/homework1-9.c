@@ -1,3 +1,6 @@
+//	print all numbers between LOW and HIGH that are divisible by NUMBER.
+
+
 #include<stdio.h>
 
 int main(){

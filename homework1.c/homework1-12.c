@@ -1,3 +1,5 @@
+//	count and print all numbers from LOW to HIGH by steps of STEP.
+
 #include<stdio.h>
 
 int main(){

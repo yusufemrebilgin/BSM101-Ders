@@ -1,3 +1,5 @@
+//swap first and last digits of a number.
+
 #include<stdio.h>
 
 int main(){
@@ -18,6 +20,7 @@ int main(){
 	
 	printf("\nilk basamaktaki sayi: %d", ilk_Basamak);
 	printf("\nson basamaktaki sayi: %d", son_Basamak);
+	printf("\n");
 	
 	
 	son_Basamak = son_Basamak + ilk_Basamak;

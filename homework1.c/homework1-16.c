@@ -1,3 +1,6 @@
+//Design an algorithm which generates even numbers between 1000 and 2000 and then prints them in the standard output. 
+//It should also print total sum.
+
 #include<stdio.h>
 
 int main(){
@@ -17,6 +20,7 @@ int main(){
 		}
 	}
 	
+	printf("\n");
 	printf("\nToplam: %d", toplam);
 	
 	return 0;

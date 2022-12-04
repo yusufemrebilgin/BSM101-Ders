@@ -1,3 +1,6 @@
+//	convert the length in feet to centimeter.
+
+
 #include<stdio.h>
 
 int main(){

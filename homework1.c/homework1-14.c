@@ -1,3 +1,5 @@
+//	computing factorial N (N!).
+
 #include<stdio.h>
 
 int main(){

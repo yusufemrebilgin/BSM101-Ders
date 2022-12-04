@@ -1,3 +1,5 @@
+//	S = 1/2 + 1/4 + ... + 1/n
+
 #include<stdio.h>
 
 int main(){

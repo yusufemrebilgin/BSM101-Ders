@@ -1,8 +1,10 @@
+//find HCF (Highest Common Factor) of two numbers.
+
 #include<stdio.h>
 
 int main(){
 	
-	int sayi1 , sayi2 , x;
+	int sayi1 , sayi2 , sayac , ebob;
 	
 	printf("Sayi giriniz: ");
 	scanf("%d", &sayi1);
@@ -10,16 +12,14 @@ int main(){
 	printf("Sayi giriniz: ");
 	scanf("%d", &sayi2);
 	
-	x = sayi1 % sayi2;
-	
-	if( x != 0 ){
-		sayi1 = sayi2;
-		sayi2 = x;
+	for( sayac = 1 ; sayac <= sayi1 && sayac <= sayi2 ; sayac++ ){
+		
+		if( sayi1%sayac==0 && sayi2%sayac==0 )
+			ebob = sayac;
+		
 	}
 	
-	else{
-		printf("EBOB: %d", sayi2);
-	}
+	printf("EBOB: %d", ebob);
 	
 	return 0;
 		
