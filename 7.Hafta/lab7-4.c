@@ -4,27 +4,27 @@
 
 int main(){
 	
-	int pi, yaricap, sayi, cevre, alan;
+	float pi, yaricap, sayi, cevre, alan;
 	
 	pi = 3.14;
 	
 	printf("Bir sayi giriniz: ");
-	scanf("%d", &sayi);
+	scanf("%f", &sayi);
 	
 		if(sayi==1){
 		
 			printf("Yaricap giriniz: ");	
-			scanf("%d", &yaricap);
+			scanf("%f", &yaricap);
 			cevre = 2*pi*yaricap;
-			printf("Cevre: %d", cevre);
+			printf("Cevre: %.2f", cevre);
 		}
 			
 		else if(sayi==2){
 		
 			printf("Yaricap giriniz: ");
-			scanf("%d,", &yaricap);
+			scanf("%f,", &yaricap);
 			alan= 2*pi*yaricap*yaricap;
-			printf("%d", alan);
+			printf("%.2f", alan);
 		}
 		else
 			printf("Yanlis giris.");
