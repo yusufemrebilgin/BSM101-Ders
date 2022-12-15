@@ -42,7 +42,7 @@ int main(){
 				faktoriyelSutun *= j;
 			}
 			
-		 	x = i - sutun;   // Satýr - Sütun
+		 	x = i - sutun;   // Satir - SÃ¼tun
 			faktoriyelEksi = 1;
 			for( j=1 ; j<=x ; j++ ){
 				faktoriyelEksi *= j;
