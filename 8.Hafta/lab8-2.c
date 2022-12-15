@@ -9,7 +9,7 @@ int main(){
 	int yaricap;
 	printf("Yaricap giriniz: "); scanf("%d", &yaricap);
 	
-	alan = 2*pi*yaricap*yaricap;
+	alan = pi*yaricap*yaricap;
 	
 	printf("\nAlan: %.2f", alan);
 	
