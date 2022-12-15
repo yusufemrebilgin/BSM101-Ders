@@ -16,9 +16,9 @@ int main(){
 		x = x / 10;
 	} 
              
-    if( sayi == yenisayi )
+	if( sayi == yenisayi )
 		printf("\nPalindromik sayidir.");
-    else
+    	else
 		printf("\nPalindromik sayi degildir.");
              
              
