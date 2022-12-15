@@ -32,33 +32,31 @@ int main(){
 			
 			if( (i!=0 && i!=sutun ) && sutun !=0 ){
 				
-			faktoriyelSatir = 1;
-			for( j=1 ; j<=i ; j++){
-				faktoriyelSatir *= j;
-			}	
+				faktoriyelSatir = 1;
+				for( j=1 ; j<=i ; j++){
+					faktoriyelSatir *= j;
+				}	
 			
-			faktoriyelSutun = 1;
-			for( j=1 ; j<=sutun ; j++ ){
-				faktoriyelSutun *= j;
+				faktoriyelSutun = 1;
+				for( j=1 ; j<=sutun ; j++ ){
+					faktoriyelSutun *= j;
+				}
+			
+		 		x = i - sutun;   // Satir - Sütun
+				faktoriyelEksi = 1;
+				for( j=1 ; j<=x ; j++ ){
+					faktoriyelEksi *= j;
+				}	
+			
+				formul = faktoriyelSatir / ( faktoriyelSutun * faktoriyelEksi ); 
+				printf("  %d  ", formul);
 			}
+		}
 			
-		 	x = i - sutun;   // Satir - Sütun
-			faktoriyelEksi = 1;
-			for( j=1 ; j<=x ; j++ ){
-				faktoriyelEksi *= j;
-			}	
-			
-			formul = faktoriyelSatir / ( faktoriyelSutun * faktoriyelEksi ); 
-			printf("  %d  ", formul);
-			
-			}
-			
-			}
 			printf("\n");
 			a = a-1;
-		
-
-		}
+	
+	}
 	
 	return 0;
 }
