@@ -1,15 +1,14 @@
 // Write C program to find reverse of the given array.
 
 #include<stdio.h>
+#define SIZE 5
 
 int main(){
 	
-	int SIZE;
-	scanf("%d", &SIZE);
 	int i, j, array[SIZE];
 	
 	for( i=0 ; i<SIZE ; i++ ){
-		printf("%d) ", i+1); scanf("%d", &array[i]);
+		printf("[%d]: ", i); scanf("%d", &array[i]);
 	}
 	
 	j = SIZE-1;
