@@ -1,4 +1,4 @@
-//İki ayrı fonksiyon oluşturarak bir tamsayının asal sayı mı yoksa Armstrong mu yoksa her ikisi mi olduğunu kontrol etmeyi sağlayan programı yazınız.
+//Ä°ki ayrÄ± fonksiyon oluÅŸturarak bir tamsayÄ±nÄ±n asal sayÄ± mÄ± yoksa Armstrong mu yoksa her ikisi mi olduÄŸunu kontrol etmeyi saÄŸlayan programÄ± yazÄ±nÄ±z.
 
 #include<stdio.h>
 #include<math.h>
