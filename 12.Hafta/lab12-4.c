@@ -1,7 +1,7 @@
 //Write C Program to Sort Strings in Dictionary Order
 #include<stdio.h>
 #define SIZE 10
-#define MAX 20  //maksimum karakter sayýsý
+#define MAX 20  //maksimum karakter
 
 int main(){
 	
