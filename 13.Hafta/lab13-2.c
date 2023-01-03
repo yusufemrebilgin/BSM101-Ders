@@ -1,5 +1,4 @@
-//Fonksiyona gönderilen beş sayının ortalamasını hesaplayıp geri döndüren programı yazınız.
-
+//Fonksiyona gÃ¶nderilen beÅŸ sayÄ±nÄ±n ortalamasÄ±nÄ± hesaplayÄ±p geri dÃ¶ndÃ¼ren programÄ± yazÄ±nÄ±z.
 #include<stdio.h>
 
 int ortalama(int, int, int, int, int); 
