@@ -1,4 +1,4 @@
-//Girilen cümleyi parametre olarak alıp içerisindeki kelime sayısını bulan fonksiyon yazınız. 
+//Girilen cÃ¼mleyi parametre olarak alÄ±p iÃ§erisindeki kelime sayÄ±sÄ±nÄ± bulan fonksiyon yazÄ±nÄ±z.
 #include<stdio.h>
 
 int kelimeSay(char[]);
