@@ -1,4 +1,4 @@
-//Fonksiyona gönderilen string içerisindeki karakterleri alfabetik sıraya sokan programı yazınız.
+//Fonksiyona gÃ¶nderilen string iÃ§erisindeki karakterleri alfabetik sÄ±raya sokan programÄ± yazÄ±nÄ±z.
 #include<stdio.h>
 
 void alfabetikSiralama(char[]);
