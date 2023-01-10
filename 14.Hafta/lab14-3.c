@@ -1,4 +1,4 @@
-//Kullanıcının gönderdiği kelime içerisinde kaç tane sesli harf olduğunu bulan fonksiyonu yazınız.
+//KullanÄ±cÄ±nÄ±n gÃ¶nderdiÄŸi kelime iÃ§erisinde kaÃ§ tane sesli harf olduÄŸunu bulan fonksiyonu yazÄ±nÄ±z.
 #include<stdio.h>
 
 int sesliHarfSayac(char[]);
