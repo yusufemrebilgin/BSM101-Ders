@@ -4,39 +4,36 @@ Küçükten büyüðe doðru sýralý bir diziye, dizinin sýrasýný bozmayacak þekilde, ve
 #include<stdio.h>
 #define SIZE 5
 
-void diziyeElemanEkle(int[],int);
+void diziyeElemanEkle(int[]);
 
 int main(){
 	
-	int i, sayi, array[100];
+	int i, array[100];
 
 	printf("Kucukten buyuge dogru sirali dizi giriniz: \n");		
-	for(i=0 ; i<SIZE ; i++)
+	for(i=0 ; i<SIZE ; i++){
 		scanf("%d", &array[i]);
+	}
 	
-	printf("\nDiziye eklenecek elamani giriniz: ");
-	scanf("%d", &sayi);
-	
-	diziyeElemanEkle( array, sayi );
-
+	diziyeElemanEkle(array);
+	for( i=0;i<SIZE+1;i++ )
+		printf("%d ", array[i]);
 
 	return 0;
 }
 
-void diziyeElemanEkle(int array[], int eleman){
+void diziyeElemanEkle(int array[]){
 	
-	int i, j, k, temp;
-	for(i=0; i<SIZE ; i++){
-		
-		if( eleman>=array[i] && eleman<=array[i+1] ){
-			k = i+1;
-			for(j=SIZE-1 ; j!=i ; j--){
-				array[j+1] = array[j];
+	int i, j, sayi;
+	printf("\nDiziye eklenecek elamani giriniz: "); scanf("%d", &sayi);
+	array[SIZE] = sayi;
+	
+	for( i=0 ; i<SIZE ; i++ )
+		for( j=i+1 ; j<SIZE+1 ; j++ )
+			if( array[i]>array[j] ){
+				array[i] = array[i] + array[j];
+				array[j] = array[i] - array[j];
+				array[i] = array[i] - array[j];
 			}
-		}
-	}
-	array[k] = eleman;
-	
-	for(i=0; i<SIZE+1 ;i++)
-		printf("%d ", array[i]);
+				
 }
