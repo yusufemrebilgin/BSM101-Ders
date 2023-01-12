@@ -1,5 +1,5 @@
 /*
-Küçükten büyüğe doğru sıralı bir diziye, dizinin sırasını bozmayacak şekilde, verilen bir elemanı ekleyen fonksiyonu yazınız.
+KÃ¼Ã§Ã¼kten bÃ¼yÃ¼ÄŸe doÄŸru sÄ±ralÄ± bir diziye, dizinin sÄ±rasÄ±nÄ± bozmayacak ÅŸekilde, verilen bir elemanÄ± ekleyen fonksiyonu yazÄ±nÄ±z.
 */
 #include<stdio.h>
 #define SIZE 5
